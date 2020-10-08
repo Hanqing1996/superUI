@@ -1,23 +1,23 @@
 <template>
     <div>
-        <topNav/>
+        <TopNav/>
         <div class="banner">
             <h1>superUI</h1>
             <h2>超厉害哦</h2>
             <p class="actions">
-                <a href="">Github</a>
-                <a href="">开始</a>
+                <a href="https://github.com/Hanqing1996/superUI">Github</a>
+                <router-link to="/doc">开始</router-link>
             </p>
         </div>
     </div>
 </template>
 
 <script lang="ts">
-    import topNav from "../components/topNav.vue"
+    import TopNav from "../components/TopNav.vue"
     export default {
         name: "Home",
         components:{
-            topNav
+            TopNav
         }
     }
 </script>
