@@ -3,7 +3,8 @@
 </template>
 
 <script>
-export default {
+  import topNav from "./components/topNav.vue"
+  export default {
   name: 'App'
 }
 </script>
